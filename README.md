@@ -1,6 +1,6 @@
 # Blueprint
 
-**TODO: Add description**
+A minimal test framework for Elixir. The purpose of blueprint is to be a test framework for both Elixir and ElixirScript.
 
 ## Installation
 
