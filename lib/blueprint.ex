@@ -33,7 +33,7 @@ defmodule Blueprint do
         %{next_results | passed: next_results.passed + 1}
       rescue
         x in [Blueprint.AssertError] ->
-          IO.puts("#{inspect module}.#{function}: #{x.message}")
+          IO.puts("#{inspect module.__info__(:module)}.#{function}: #{x.message}")
           %{next_results | failed: next_results.failed + 1}
       end
     end)

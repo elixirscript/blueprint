@@ -26,7 +26,7 @@ defmodule Blueprint.Mixfile do
     [
       {:credo, "~> 0.7.3", only: [:dev, :test]},
       {:coverex, "~> 1.4.10", only: :test},
-      {:ex_doc, "~> 0.15.1", only: [:dev]}
+      {:ex_doc, "~> 0.15.1", only: [:dev]},
     ]
   end
 
